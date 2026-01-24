@@ -10,20 +10,26 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'Helm - AI-Powered Goal Planning & Productivity',
-  description: 'Transform your goals into achievable roadmaps with Helm. Our AI breaks down your ambitions into personalized subgoals, habits, and daily tasks designed around your life.',
+  title: 'Helm - #1 AI Goal Planner',
+  description: 'Helm - A Roadmap for Real Progress',
   keywords: ['productivity app', 'goal setting', 'AI planner', 'habit tracker', 'task management', 'roadmap', 'personal development'],
   authors: [{ name: 'Helm' }],
+  icons: {
+    icon: '/helm-icon.png',
+    apple: '/helm-icon.png',
+  },
   openGraph: {
-    title: 'Helm - AI-Powered Goal Planning & Productivity',
-    description: 'Transform your goals into achievable roadmaps with Helm.',
+    title: 'Helm - #1 AI Goal Planner',
+    description: 'Helm - A Roadmap for Real Progress',
     type: 'website',
     url: 'https://helm.coach',
+    images: ['/helm-icon.png'],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Helm - AI-Powered Goal Planning & Productivity',
-    description: 'Transform your goals into achievable roadmaps with Helm.',
+    title: 'Helm - #1 AI Goal Planner',
+    description: 'Helm - A Roadmap for Real Progress',
+    images: ['/helm-icon.png'],
   },
 }
 
