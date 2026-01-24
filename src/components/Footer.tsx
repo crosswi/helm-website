@@ -1,8 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
 
-const basePath = process.env.NODE_ENV === 'production' ? '/helm-website' : ''
-
 export function Footer() {
   return (
     <footer className="border-t border-white/10 py-12">
@@ -10,7 +8,7 @@ export function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <Link href="/" className="flex items-center gap-2">
             <Image
-              src={`${basePath}/helm-icon.png`}
+              src="/helm-icon.png"
               alt="Helm"
               width={24}
               height={24}

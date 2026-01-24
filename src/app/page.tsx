@@ -1,7 +1,5 @@
 import Image from 'next/image'
 
-const basePath = process.env.NODE_ENV === 'production' ? '/helm-website' : ''
-
 export default function Home() {
   return (
     <div className="min-h-screen">
@@ -14,7 +12,7 @@ export default function Home() {
             <div className="mb-6">
               <div className="w-20 h-20 bg-zinc-900 rounded-2xl flex items-center justify-center overflow-hidden">
                 <Image
-                  src={`${basePath}/helm-icon.png`}
+                  src="/helm-icon.png"
                   alt="Helm"
                   width={80}
                   height={80}
@@ -58,7 +56,7 @@ export default function Home() {
             {/* Phone Frame 1 - Left */}
             <div className="w-44 md:w-52 lg:w-60 rounded-[2rem] overflow-hidden border-4 border-zinc-800 shadow-2xl">
               <Image
-                src={`${basePath}/Home.png`}
+                src="/Home.png"
                 alt="Helm App - Home Screen"
                 width={240}
                 height={520}
@@ -70,7 +68,7 @@ export default function Home() {
             {/* Phone Frame 2 - Center (slightly raised) */}
             <div className="w-44 md:w-52 lg:w-60 rounded-[2rem] overflow-hidden border-4 border-zinc-800 shadow-2xl -mb-4">
               <Image
-                src={`${basePath}/Timeline-1.png`}
+                src="/Timeline-1.png"
                 alt="Helm App - Timeline View"
                 width={240}
                 height={520}
@@ -82,7 +80,7 @@ export default function Home() {
             {/* Phone Frame 3 - Right */}
             <div className="w-44 md:w-52 lg:w-60 rounded-[2rem] overflow-hidden border-4 border-zinc-800 shadow-2xl">
               <Image
-                src={`${basePath}/Timeline.png`}
+                src="/Timeline.png"
                 alt="Helm App - Goal Timeline"
                 width={240}
                 height={520}
