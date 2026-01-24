@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   authors: [{ name: 'Helm' }],
   icons: {
     icon: '/Helm.svg',
-    apple: '/helm-icon.png',
+    apple: '/helm-icon-apple.png',
   },
   openGraph: {
     title: 'Helm - #1 AI Goal Planner',
