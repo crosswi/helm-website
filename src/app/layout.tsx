@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   keywords: ['productivity app', 'goal setting', 'AI planner', 'habit tracker', 'task management', 'roadmap', 'personal development'],
   authors: [{ name: 'Helm' }],
   icons: {
-    icon: '/helm-icon.png',
+    icon: '/Helm.svg',
     apple: '/helm-icon.png',
   },
   openGraph: {
