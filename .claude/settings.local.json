@@ -4,7 +4,13 @@
       "Bash(npx create-next-app@latest:*)",
       "Bash(npm install:*)",
       "Bash(npm run build:*)",
-      "Bash(lsof:*)"
+      "Bash(lsof:*)",
+      "Bash(git push:*)",
+      "Bash(gh run list:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git revert:*)",
+      "Bash(ls:*)"
     ]
   }
 }
