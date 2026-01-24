@@ -36,6 +36,12 @@ jobs:
       - name: Add .nojekyll
         run: touch ./out/.nojekyll
 
+      - name: Copy CNAME
+        run: cp ./public/CNAME ./out/CNAME
+
+      - name: List output directory
+        run: ls -la ./out && ls -la ./out/_next/static/css/
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
