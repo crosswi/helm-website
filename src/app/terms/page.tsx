@@ -12,7 +12,7 @@ export default function TermsPage() {
         {/* Header */}
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Terms of Service</h1>
-          <p className="text-sm text-zinc-500">Last Updated: [INSERT DATE BEFORE PUBLISHING]</p>
+          <p className="text-sm text-zinc-500">Last Updated: February 26, 2026</p>
         </div>
 
         {/* Content */}
@@ -147,6 +147,7 @@ export default function TermsPage() {
               <li>Most data is stored locally on your device</li>
               <li>We do not collect personal information such as names or email addresses</li>
               <li>Anonymous identifiers are used for API functionality</li>
+              <li>Your goal descriptions and related content are shared with OpenAI (OpenAI, L.L.C.) to power AI-generated plans and recommendations. See our <a href="/privacy" className="text-cyan-400 hover:text-cyan-300">Privacy Policy</a> for full details on how your data is handled.</li>
               <li>Premium cloud sync stores goal data on our servers</li>
             </ul>
           </section>

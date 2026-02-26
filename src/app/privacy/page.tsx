@@ -12,7 +12,7 @@ export default function PrivacyPage() {
         {/* Header */}
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Privacy Policy</h1>
-          <p className="text-sm text-zinc-500">Last Updated: January 24, 2025</p>
+          <p className="text-sm text-zinc-500">Last Updated: February 26, 2026</p>
         </div>
 
         {/* Content */}
@@ -62,7 +62,17 @@ export default function PrivacyPage() {
               <li>RevenueCat: Our subscription management service that receives subscription status, purchase transactions, renewal dates, and device identifiers</li>
             </ul>
 
-            <h3 className="text-lg font-medium mt-6 mb-3">2.4 Information We Do NOT Collect</h3>
+            <h3 className="text-lg font-medium mt-6 mb-3">2.5 How We Collect Information</h3>
+            <p className="text-zinc-400 leading-relaxed mb-4">
+              We collect information through the following methods:
+            </p>
+            <ul className="list-disc list-inside text-zinc-400 space-y-2 ml-4">
+              <li>Direct User Input: Information you enter into the App, such as goals, descriptions, and notes</li>
+              <li>Automatic Collection: Device and usage information collected automatically when you use the App</li>
+              <li>Third-Party API Interactions: Data exchanged with third-party services (OpenAI for AI-powered features and RevenueCat for subscription management) as part of the App&apos;s core functionality</li>
+            </ul>
+
+            <h3 className="text-lg font-medium mt-6 mb-3">2.6 Information We Do NOT Collect</h3>
             <p className="text-zinc-400 leading-relaxed mb-4">
               We prioritize your privacy. Helm does NOT collect:
             </p>
@@ -94,15 +104,18 @@ export default function PrivacyPage() {
           <section className="mb-12">
             <h2 className="text-2xl font-semibold mb-4">4. Third-Party Services and Data Sharing</h2>
             <p className="text-zinc-400 leading-relaxed mb-4">
+              We share user-entered text — including goal descriptions, notes, and related content — with OpenAI (OpenAI, L.L.C.) solely for the purpose of generating AI-powered goal plans and recommendations. This data is transmitted securely and is only used to provide the App&apos;s core functionality.
+            </p>
+            <p className="text-zinc-400 leading-relaxed mb-4">
               We may share your information with the following third-party service providers:
             </p>
             <ul className="list-disc list-inside text-zinc-400 space-y-2 ml-4">
               <li>RevenueCat: For subscription management; receives device identifiers and subscription data</li>
               <li>Apple (App Store): For payment processing; receives subscription requests and usage data</li>
-              <li>OpenAI: For AI-powered goal planning and roadmap generation; receives your goal descriptions and related content to generate personalized subgoals, habits, and tasks. This data is transmitted securely and is not used by OpenAI to train their models.</li>
+              <li>OpenAI (OpenAI, L.L.C.): For AI-powered goal planning and roadmap generation; receives your goal descriptions and related content to generate personalized subgoals, habits, and tasks. This data is transmitted securely and is not used by OpenAI to train their models. OpenAI maintains data protection measures that are equal to or stronger than those described in this Privacy Policy. OpenAI is not permitted to use your data for advertising purposes.</li>
             </ul>
             <p className="text-zinc-400 leading-relaxed mt-4">
-              We do not currently use third-party analytics services. If this changes, we will update this policy accordingly. We do not sell your personal information to third parties.
+              All third-party service providers are contractually prohibited from using your data for advertising or any purpose unrelated to providing the App&apos;s functionality. We do not currently use third-party analytics services. If this changes, we will update this policy accordingly. We do not sell your personal information to third parties.
             </p>
           </section>
 
